@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply antialiased;
+  }
+}
+
+@layer components {
+  .container-custom {
+    @apply max-w-7xl mx-auto px-4;
+  }
+  
+  @media (min-width: 640px) {
+    .container-custom {
+      @apply px-6;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .container-custom {
+      @apply px-8;
+    }
+  }
+  
+  .section-padding {
+    @apply py-12;
+  }
+  
+  @media (min-width: 768px) {
+    .section-padding {
+      @apply py-16;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .section-padding {
+      @apply py-20;
+    }
+  }
+  
+  .hero-gradient {
+    background: linear-gradient(135deg, #dc2626 0%, #991b1b 100%);
+  }
+}

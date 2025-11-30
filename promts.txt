@@ -1,0 +1,30 @@
+I want to build a web app for a gym. It should have a public page open to everybody, fulfilling an advertisement purpose (promote the gym, showing classes, opening hours, pricing, pictures and descriptions of the facilities, etc.). 
+
+It should also have a intranet where admins and registered users can interact. Admins should be able to set classes, schedules and prices. They have to be able to see the list of registered users, and also the capacity to add and remove users.
+
+Registered users should be able to log in, see and configure their user profile, see and register for specific classes, etc.
+
+The web app should be visually appealing and easy to navigate, with relevant banners and navigation tools. 
+
+
+------------
+
+
+1.1. The gym is called "Ximnasio", and we don't have a logo yet. Please use a simple logo with an X and a fitting colour scheme.
+1.2. Use placeholders please.
+2.1. I follow you here.
+2.2. Vercel
+2.3. Yes please.
+3.1. Yes, please. Let's add a functionality such that they can only cancel 1 hour or more in advance. If there's less than 1 hour until the class start, users will have to pay half the cost even if they cancel.
+3.2. Yes please, we would like both monthly plans and pay-per-class (admints should be able to configure both)
+3.3. Yes, please.
+4.1. Yes, indeed.
+4.2. There will be recurrence indeed. Admins should be able to configure that.
+4.3. Yes, there will be different instructors. Admins should be able to assign them, and registered users can see who's the instructor of each class.
+5.1. Yes, make two admin roles.
+5.2. Analytics will be usefull indeed!
+6.1. Simple authetication, with the ability to reset password via email.
+6.2. No, thanks
+Lastly, I agree with your recommended tech stack.
+
+
